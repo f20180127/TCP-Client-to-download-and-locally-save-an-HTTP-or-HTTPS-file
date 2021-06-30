@@ -1,0 +1,11 @@
+Open  terminal for the client.
+
+Run the following command:
+gcc -Wall -o client client.c -L/usr/lib -lssl -lcrypto
+
+For http file run-
+./client http://www.africau.edu/images/default/sample.pdf
+
+
+For https file run-
+./client https://web.ist.utl.pt/~fabio.ferreira/material/asa/clrs.pdf
